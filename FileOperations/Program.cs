@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace FileOperations
 {
@@ -6,6 +7,12 @@ namespace FileOperations
     {
         static void Main(string[] args)
         {
+            Customer.ReadDetails();
+
+            Customer.Filestream();
+
+            Customer.BinaryFiles();
+
             BasicFiles.CheckExists();
 
             BasicFiles.FileWrite();
@@ -19,41 +26,6 @@ namespace FileOperations
             BasicFiles.CopyFile();
 
             BasicFiles.DeleteFile();
-
-
-            CsvFiles.CreateCsv();
-
-            CsvFiles.FileWrite();
-
-            CsvFiles.AppendText();
-
-            CsvFiles.ReadAllLines();
-
-            CsvFiles.ReadAllTexts();
-
-            CsvFiles.CopyFile();
-
-            CsvFiles.DeleteFile();
-
-
-            JsonFiles.CreateJson();
-
-            JsonFiles.FileWrite();
-
-            JsonFiles.AppendText();
-
-            JsonFiles.ReadAllLines();
-
-            JsonFiles.ReadAllTexts();
-
-            JsonFiles.CopyFile();
-
-            JsonFiles.DeleteFile();
-
-
-
-
-
 
         }
     }

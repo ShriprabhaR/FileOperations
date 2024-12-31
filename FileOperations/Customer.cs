@@ -10,13 +10,13 @@ namespace FileOperations
         public static void ReadDetails()
         {
 
-            //DirectoryInfo Currdir = new DirectoryInfo(".");
-            //DirectoryInfo Dir = new DirectoryInfo(@"C:\Users\HP\source\repos\FileOperations\FileOperations\demo.txt");
-            //Console.WriteLine(Dir.FullName);
-            //Console.WriteLine(Dir.Name);
-            //Console.WriteLine(Dir.Parent);
-            //Console.WriteLine(Dir.Attributes);
-            //Console.WriteLine(Dir.CreationTime);
+            DirectoryInfo Currdir = new DirectoryInfo(".");
+            DirectoryInfo Dir = new DirectoryInfo(@"C:\Users\HP\source\repos\FileOperations\FileOperations\demo.txt");
+            Console.WriteLine(Dir.FullName);
+            Console.WriteLine(Dir.Name);
+            Console.WriteLine(Dir.Parent);
+            Console.WriteLine(Dir.Attributes);
+            Console.WriteLine(Dir.CreationTime);
 
 
             string path = @"C:\Users\HP\source\repos\FileOperations\FileOperations\Customer.txt";
